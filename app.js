@@ -10,7 +10,7 @@ let nextId = 3;
 
 
 app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'ok' });
+  res.status(200).json({ status: 'ok', version: '2.0.0' });
 });
 
 // Listar todos los usuarios
